@@ -4,10 +4,10 @@ from termcolor import colored
 import time
 import json
 
-inputs = input('Enter File Path : ')
-sk = input('Enter Sk : ')
-amt = input('Enter Amount : ')
-currency = input('Enter Currency : ')
+inputs = input('Enter File Path')
+sk = input('Enter Sk')
+amt = input('Enter Amount')
+currency = input('Enter Currency')
 
 if int(amt) < 50:
     print('Amount must be *100 of the total amount\nIf your amount is $0.8 then put 80')
